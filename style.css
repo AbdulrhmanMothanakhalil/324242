@@ -1,0 +1,44 @@
+*{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+img{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+@media screen and(max-width:400px){
+    img{
+        width: auto;
+        min-height: 100vh;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+}
+
+@media screen and(max-width:600px){
+    img{
+        width: auto;
+        min-height: 100vh;
+        position: relative;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+}
